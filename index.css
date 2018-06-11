@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #f7f7f5;
+    width: 1400px;
+    margin: 0 auto;
+
+}
+
+.top-menu {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    height: 44px;
+    background: #2f2f2f;
+    padding: 0 100px;
+}
+
+.top-menu .center {
+    display: flex;
+    margin: 0 auto;
+    width: 720px;
+}
+
+.top-menu .center a {
+    line-height: 44px;
+    text-decoration: none;
+    color: white;
+    padding: 0 22px;
+}
+
+.top-menu .left {
+    float: left;
+    line-height: 44px;
+    width: 77px;
+    height: 44px;
+    background: url("vivo.jpg") no-repeat center left;
+}
+
+.top-menu .right {
+    float: right;
+    display: flex;
+    line-height: 44px;
+    width: 77px;
+    justify-content: space-between;
+}
+
+.top-menu .right img {
+    margin-top: 14px;
+    height: 16px;
+    width: 16px;
+}
+
+.pic {
+    margin: 30px auto 0 auto;
+    width: 429px;
+    height: 65px;
+
+}
+
+img {
+    width: 100%;
+}
+
+.header-box {
+    display: flex;
+    height: 21px;
+    width: 1200px;
+    margin: 30px auto 17px auto;
+}
+
+.center-box {
+    justify-content: space-between;
+    display: flex;
+    margin-left: 410px;
+    width: 429px;
+    height: 21px;
+}
+
+.center-box a {
+    padding-left: 16px;
+    color: #6c7880;
+    font-size: 12px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.right-box {
+    justify-content: space-between;
+    display: flex;
+    margin-left: 170px;
+    height: 17px;
+    width: 190px;
+}
+
+.right-box a {
+    line-height: 17px;
+    text-decoration: none;
+    padding-left: 14px;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4c4c4c;
+}
+
+.phone {
+    margin: 0 auto;
+    width: 1200px;
+    height: 450px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    left: 500px;
+    top: 424px;
+    width: 200px;
+    height: 3px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.block .banner {
+    width: 42px;
+    height: 3px;
+    padding-right: 10px;
+    background: white;
+}
+
+.print {
+    margin: 10px auto 0 auto;
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.print .zone {
+    width: 293px;
+    height: 140px;
+}
+
+.zone img {
+    width: 100%;
+}
+
+.flagship-phone {
+    width:100%;
+    height:87px;
+}
+.title p{
+    display: block;
+    padding: 38px 0 25px;
+    color: #333;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    background: #f7f7f5;
+}
+.flag-phone{
+    width: 1200px;
+    height:521px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+.flag-phone .box {
+    width: 394px;
+    height: 511px;
+    background: white;
+}
+.flag-phone .box .box-phone {
+    height:288px;
+    width:394px;
+    background: white;
+    padding:58px;
+}
+.flag-phone .box img {
+    display: block;
+    width:230px;
+    height:230px;
+    margin:0 auto;
+}
+.flag-phone .box h5{
+    display: block;
+    width:394px;
+    height:56px;
+    background: white;
+    text-align: center;
+    line-height: 56px;
+    font-weight: normal;
+
+}
+.flag-phone .box h6{
+    display: block;
+    width:100%;
+    height:24px;
+    padding:11px auto 48px auto;
+    background: white;
+    text-align: center;
+    font-size:16px;
+    font-weight: 300;
+}
+.flag-phone .box p{
+    display: block;
+    width:394px;
+    height:58px;
+    color:red;
+    text-align: center;
+    background: white;
+    margin-top: 50px;
+    font-size:20px;
+    font-weight: 300;
+    /*font-family: Calibri;*/
+}
+
+.Boutique-phone-list {
+    width:1200px;
+    margin: 0 auto;
+    height: 780px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    background:#f7f7f5;
+
+
+}
+.Boutique-phone-list .box{
+    width:293px;
+    height: 380px;
+    margin-bottom:10px;
+    background:#ffffff;
+
+}
+.Boutique-phone-list .box:nth-child(1) {
+    width:595px;
+    height: 380px;
+    margin-bottom:17px;
+}
+.Boutique-phone-list .box-phone{
+    width:293px;
+    height:215px;
+    padding-top:43px;
+    background: #ffffff;
+
+}
+
+.Boutique-phone-list .box-phone img{
+    display:block;
+    width:172px;
+    height:172px;
+    margin:0 auto;
+}
+.Boutique-phone-list .box:nth-child(1)  img{
+    display: block;
+    width:595px;
+    height:380px;
+}
+
+
+.Boutique-phone-list .box h5 {
+    background: #ffffff;
+    display: block;
+    width:100%;
+    height:44px;
+    color: #000000;
+    text-align: center;
+    line-height:44px;
+    font-weight:400;
+    font-size:16px;
+
+}
+
+.Boutique-phone-list .box h6 {
+    background: #ffffff;
+    display: block;
+    width:100%;
+    height:59px;
+    color: #000000;
+    text-align: center;
+    font-weight:400;
+
+
+}
+.Boutique-phone-list .box p {
+    background: #ffffff;
+    display: block;
+    width:100%;
+    height:62px;
+    color: red;
+    text-align: center;
+    font-weight:400;
+
+}
+
+
+
+
