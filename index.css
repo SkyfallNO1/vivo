@@ -58,7 +58,6 @@
     margin: 30px auto 0 auto;
     width: 429px;
     height: 65px;
-
 }
 
 img {
@@ -125,7 +124,6 @@ img {
     width: 200px;
     height: 3px;
     position: absolute;
-    z-index: 1000;
 }
 
 .block .banner {
@@ -153,153 +151,185 @@ img {
 }
 
 .flagship-phone {
-    width:100%;
-    height:87px;
+    width: 100%;
+    height: 87px;
 }
-.title p{
+
+.title {
+    position: relative;
+}
+
+.title p {
     display: block;
     padding: 38px 0 25px;
     color: #333;
     font-size: 24px;
     line-height: 1;
     text-align: center;
-    background: #f7f7f5;
+    background: #f1f1f1;
+
 }
-.flag-phone{
+
+.title a {
+    position: absolute;
+    display: block;
+    color: #555555;
+    text-decoration: none;
+    height: 100%;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;;
+    background: none;
+    right: 92px;
+    bottom: -43px;
+}
+
+.flag-phone {
     width: 1200px;
-    height:521px;
-    margin:0 auto;
-    display:flex;
-    justify-content:space-between;
+    height: 521px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
+
 .flag-phone .box {
     width: 394px;
     height: 511px;
     background: white;
 }
+
 .flag-phone .box .box-phone {
-    height:288px;
-    width:394px;
+    height: 288px;
+    width: 394px;
     background: white;
-    padding:58px;
+    padding: 58px;
 }
+
 .flag-phone .box img {
     display: block;
-    width:230px;
-    height:230px;
-    margin:0 auto;
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
 }
-.flag-phone .box h5{
+
+.flag-phone .box h5 {
     display: block;
-    width:394px;
-    height:56px;
+    width: 394px;
+    height: 56px;
     background: white;
     text-align: center;
     line-height: 56px;
-    font-weight: normal;
+    font-size: 20px;
+    font-weight: 400;
 
 }
-.flag-phone .box h6{
+
+.flag-phone .box h6 {
     display: block;
-    width:100%;
-    height:24px;
-    padding:11px auto 48px auto;
+    width: 100%;
+    height: 24px;
+    padding: 11px auto 48px auto;
     background: white;
     text-align: center;
-    font-size:16px;
+    font-size: 16px;
     font-weight: 300;
 }
-.flag-phone .box p{
+
+.flag-phone .box p {
     display: block;
-    width:394px;
-    height:58px;
-    color:red;
+    width: 394px;
+    height: 58px;
+    color: red;
     text-align: center;
     background: white;
     margin-top: 50px;
-    font-size:20px;
+    font-size: 20px;
     font-weight: 300;
-    /*font-family: Calibri;*/
 }
 
 .Boutique-phone-list {
-    width:1200px;
+    width: 1200px;
     margin: 0 auto;
     height: 780px;
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    background:#f7f7f5;
-
+    background: #f1f1f1;
 
 }
-.Boutique-phone-list .box{
-    width:293px;
+
+.Boutique-phone-list .box {
+    width: 293px;
     height: 380px;
-    margin-bottom:10px;
-    background:#ffffff;
-
-}
-.Boutique-phone-list .box:nth-child(1) {
-    width:595px;
-    height: 380px;
-    margin-bottom:17px;
-}
-.Boutique-phone-list .box-phone{
-    width:293px;
-    height:215px;
-    padding-top:43px;
+    margin-bottom: 10px;
     background: #ffffff;
 
 }
 
-.Boutique-phone-list .box-phone img{
-    display:block;
-    width:172px;
-    height:172px;
-    margin:0 auto;
-}
-.Boutique-phone-list .box:nth-child(1)  img{
-    display: block;
-    width:595px;
-    height:380px;
+.Boutique-phone-list .box:nth-child(1) {
+    width: 595px;
+    height: 380px;
+    margin-bottom: 17px;
 }
 
+.Boutique-phone-list .box-phone {
+    width: 293px;
+    height: 215px;
+    padding-top: 43px;
+    background: #ffffff;
+
+}
+
+.Boutique-phone-list .box-phone img {
+    display: block;
+    width: 172px;
+    height: 172px;
+    margin: 0 auto;
+}
+
+.Boutique-phone-list .box:nth-child(1) img {
+    display: block;
+    width: 595px;
+    height: 380px;
+}
 
 .Boutique-phone-list .box h5 {
     background: #ffffff;
     display: block;
-    width:100%;
-    height:44px;
+    width: 100%;
+    height: 44px;
     color: #000000;
     text-align: center;
-    line-height:44px;
-    font-weight:400;
-    font-size:16px;
+    line-height: 44px;
+    font-weight: 400;
+    font-size: 16px;
 
 }
 
 .Boutique-phone-list .box h6 {
     background: #ffffff;
     display: block;
-    width:100%;
-    height:59px;
+    width: 100%;
+    height: 59px;
     color: #000000;
     text-align: center;
-    font-weight:400;
-
+    font-weight: 400;
 
 }
+
 .Boutique-phone-list .box p {
     background: #ffffff;
     display: block;
-    width:100%;
-    height:62px;
+    width: 100%;
+    height: 62px;
     color: red;
     text-align: center;
-    font-weight:400;
+    font-weight: 400;
 
 }
+
+
+
 
 
 
